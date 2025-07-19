@@ -1,115 +1,139 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nikhil tiwari-Resume</title>
-  <style> 
-body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    background: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-.container{
-  border: 2px solid black;
- max-width: 800px;
- margin:auto;
- background:white;
- padding:30px 30px;
- margin-top: 20px;
- box-shadow: 0 0 10px rgba(0,0,0,0.1)
-}
-div{
-  padding: 0.8em;
-}
-h1,h2{
-  color:rgb(59, 52, 41);
-  border-radius: 10px;
-  background: #a9d8d6;
-  display: inline;
-}
-.skills span{
-  display: inline-block;
-  background: blue;
-  padding: 8px 10px;
-  border-radius: 10px;
-  margin: 5px;
-  color: #f4f4f4;
-}
-.contact-section
-{
-  font-size:20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border: 1px solid burlywood;
-}
-.lang{
- border: 1px solid burlywood;
-margin: 0.2em;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
 
-}
-.Education{
-border: 1px solid  burlywood;
-margin: 0.2em;
+        .container {
+            border: 2px solid black;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 30px 30px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+        }
 
-}
-.projects{
-border: 1px solid  burlywood;
-margin: 0.2em;
-}
-.Resume{
-  justify-content: center;
-  display: flex;
-}
-  </style>
+        div {
+            padding: 0.8em;
+        }
+       
+
+        h1,
+        h2 {
+            color: rgb(59, 52, 41);
+            border-radius: 10px;
+            border: 1px solid blue;
+            /* background: #a9d8d6; */
+            display: inline;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: rgb(116, 73, 160);
+            padding: 8px 10px;
+            border-radius: 10px;
+            margin: 5px;
+            color: #f4f4f4;
+          
+        }
+        .skills span:hover{
+            background: #b076d6;
+        }
+
+        .contact-section {
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border: 1px solid burlywood;
+        }
+
+        .lang {
+            border: 1px solid burlywood;
+            margin: 0.2em;
+
+        }
+
+        .Education {
+            border: 1px solid burlywood;
+            margin: 0.2em;
+
+        }
+
+        .projects {
+            border: 1px solid burlywood;
+            margin: 0.2em;
+        }
+
+        .Resume {
+            justify-content: center;
+            display: flex;
+        }
+        .intrest{
+             border: 1px solid burlywood;
+            margin: 0.2em;
+        }
+    </style>
 </head>
 
 <body>
-  <div class="container">
-    <h1 class="Resume">Resume</h1><br>
-    <h1>Nikhil Tiwari</h1>
-    <div class="contact-section">
-      <p>📩Email : <a href=" nikhiltiwari1425@gmail.com"> nikhiltiwar1425@gmail.com</a></p>
-      <p>📲7057320974</p>
-      <p>📍Nagpur Maharastra India</p>
-      <p>🌐github : <a href="https://github.com/nikhil-tiwari1419">https://github.com/nikhil-tiwari1419</a></p>
-    </div>
+    <div class="container">
+        <h1 class="Resume">Resume</h1><br>
+        <div class="contact-section">
+            <h2>personal info</h2>
+            <p>Name: Nikhil tiwari</p>
+            <p>Email :nikhiltiwari1425@gmail.com</a></p>
+            <p>mob_no :7057320974</p>
+            <p>Address :Nagpur Maharastra India</p>
+            <p>Github link : <a href="https://github.com/nikhil-tiwari1419">🌐Github</a></p>
+        </div>
 
-    <div class="skills">
-      <H2>Skills</H2>
-      <span>HTML5</span>
-      <span>CSS3</span>
-      <span>JavaScript</span>
-      <span>Responsive design </span>
-      <span>Flex-box</span>
-      <span>DOM-Manipulation</span>
+        <div class="skills">
+            <H2>Skills</H2>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <!-- <span>React</span> -->
+            <span>DOM-Manipulation</span>
+            <span>C++</span>
+        </div>
+        <div class="intrest">
+             <h2>Interests</h2>
+            <h4>• Software Development</h4>
+            <h4>• Full stack dev</h4>
+            <h4>• Application (android / ios)</h4>
+            <h4>• AI(artificial intelegence)</h4>
+        </div>
+        <div class="projects">
+            <h2>Projects</h2>
+            <h3>1)Buit a <a href="https://nikhil-tiwari1419.github.io/Niksify.com/"> music player</a>  with the interactive use of html css javascript
+            </h3>
+            <h3>2) Built a personal portfolio site with the use of html and css</h3>
+        </div>
+        <div class="Education">
+            <h2>Education</h2>
+            <!-- <h3>SSC : 76.6%</h3>
+            <h3>HSC : 57.67%</h3> -->
+            <p><strong>Bachelor of Computer Applications (BCA)Passout -2025</strong><br />
+                Shri Shivaji Education Society Amravati College, Nagpur Maharastra<br />
+            </p>
+        </div>
+        <div class="lang">
+            <h2>Languages</h2>
+            <ul>
+                <li>Hindi – Native</li>
+                <li>English – Intermediate</li>
+            </ul>
+        </div>
     </div>
-    <div class="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <strong> <a href="https://nikhil-tiwari1419.github.io/Niksify.com/">Niksify.com - music player website</a> </strong> <br>
-          Built a stylish music player website using HTML, CSS, and JavaScript.<br />
-          Features custom audio controls and responsive design for all devices.
-        </li>
-      </ul>
-    </div>
-    <div class="Education">
-      <h2>Education</h2>
-        <p><strong>Bachelor of Computer Applications (BCA) 2nd year</strong><br />
-        Shree shivaji Science College, Nagpur Maharastra<br />
-        2025 – Present
-      </p>
-    </div>
-    <div class="lang">
-      <h2>Languages</h2>
-      <ul>
-        <li>Hindi – Native</li>
-        <li>English – Intermediate</li>
-      </ul>
-    </div>
-  </div>
 </body>
+
 </html>
